@@ -1,16 +1,68 @@
-# React + Vite
+# 🎯 Focus Study App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean **React-based focus & task tracker** that helps users manage tasks, start focus sessions, and track completed work.
 
-Currently, two official plugins are available:
+This project was built to revise and strengthen **React fundamentals by building a complete working application**, not just following tutorials.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ➕ Add tasks with estimated time (in minutes)
+- ▶️ Start focus on one task at a time
+- ⏱️ Live countdown timer during focus mode
+- ⛔ Prevent multiple tasks from running simultaneously
+- 🛑 Stop a task with confirmation
+- ❌ Delete tasks safely
+- ✅ Track completed tasks
+- 📊 View simple focus statistics
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 What I Learned
+
+- React component-based architecture
+- State management using `useState`
+- Passing data via props
+- Conditional rendering
+- Avoiding direct state mutation
+- Handling real-world UI edge cases
+- Debugging React re-render issues
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **JavaScript (ES6)**
+- **CSS**
+- **Vite**
+
+---
+
+## 📸 App Preview
+
+The app includes:
+- Task input section  
+- Active focus mode with countdown timer  
+- Completed tasks section  
+- Focus statistics  
+
+(Screenshots shared in the LinkedIn post)
+
+---
+
+## ▶️ Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/Aakif01/focus-study-app.git
+
+# Navigate into the project
+cd focus-study-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
