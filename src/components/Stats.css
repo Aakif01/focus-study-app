@@ -1,0 +1,13 @@
+
+.Stats{
+  text-align: center;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #d5d5d55f;
+  margin-top: 3rem;
+}

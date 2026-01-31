@@ -1,0 +1,30 @@
+.Input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  border-top: 1px solid #787878;
+  padding-top: 15px;
+}
+
+.Input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.Input button {
+  padding: 10px 15px;
+  background: #2d7ff9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.Input button:hover {
+  background: #1f6fe0;
+}

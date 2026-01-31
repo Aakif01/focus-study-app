@@ -1,0 +1,25 @@
+.Timer {
+  text-align: center;
+  margin: 20px 0;
+  padding: 15px;
+  background: #f0f4ff;
+  border-radius: 6px;
+}
+
+.Timer h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.clock {
+  font-size: 48px;
+  font-weight: bold;
+  color: #2d7ff9;
+  margin: 0;
+}
+
+.Timer p {
+  margin-top: 5px;
+  color: #777;
+}

@@ -1,0 +1,20 @@
+.Tasks {
+  margin-top: 10px;
+  border-top: 1px solid #787878;
+}
+.today-task{
+  border-bottom: 1px solid #787878;
+}
+h3{
+  padding: 3px 14px;
+}
+.empty-msg{
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 2rem 0;
+  color: #3d3d3ddb;
+}
+p{
+  padding: 3px 14px;
+}
