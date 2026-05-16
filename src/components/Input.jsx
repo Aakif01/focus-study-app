@@ -32,7 +32,7 @@ function Input({handleAddTask}){
             </div> 
         
         <div className="col-4">
-            <input type="number" className="form-control" placeholder="Minutes" value={input.minutes} name="minutes" onChange={handleInput} required></input>
+            <input type="number" className="form-control" placeholder="Minutes" min="1" value={input.minutes} name="minutes" onChange={handleInput} required></input>
         </div>    
            <button type="submit" className="btn btn-primary col-2">Add</button>
            </div>
